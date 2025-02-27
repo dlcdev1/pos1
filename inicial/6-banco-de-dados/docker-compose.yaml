@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: userum
+      MYSQL_DATABASE: goexpert
+      MYSQL_USER: userum
+      MYSQL_PASSWORD: userum
+    ports:
+      - "3306:3306"
+# docker-compose up -d
+# docker-compose exec mysql bash
+#  mysql -u root -p goexpert
+
+#create table products (id varchar(255), name varchar(80), price decimal(10,2), primary key(id));
+
