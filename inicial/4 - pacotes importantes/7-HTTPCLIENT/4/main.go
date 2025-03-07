@@ -4,13 +4,14 @@ import (
 	"context"
 	"io/ioutil"
 	"net/http"
+	"time"
 )
 
 func main() {
 
 	ctx := context.Background()
-	// ctx, cancel := context.WithTimeout(ctx, time.Second)
-	ctx, cancel := context.WithCancel(ctx)
+	ctx, cancel := context.WithTimeout(ctx, time.Second)
+	//ctx, cancel := context.WithCancel(ctx)
 	defer cancel()
 
 	req, err := http.NewRequestWithContext(ctx, "GET", "http://google.com", nil)

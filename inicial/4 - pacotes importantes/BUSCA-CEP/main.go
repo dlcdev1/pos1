@@ -39,11 +39,10 @@ func BuscaCepHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	cep, error := BuscaCep(cepParam)
-	if error!= nil {
+	if error != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		return
 	}
-
 
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
@@ -53,7 +52,7 @@ func BuscaCepHandler(w http.ResponseWriter, r *http.Request) {
 func BuscaCep(cep string) (*ViaCEP, error) {
 	resp, error := http.Get("https://viacep.com.br/ws/" + cep + "/json")
 
-	if error !=nil {
+	if error != nil {
 		return nil, error
 	}
 	defer resp.Body.Close()
