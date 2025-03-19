@@ -4,31 +4,147 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="mudança de pastas" />
+    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="novas aulas">
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/1/CMD/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/1/math/math.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/3/math/math.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/3/sistema/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/4/math/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/4/math/math.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/4/sistema/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/7-Packaging/4/sistema/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/8-Testing/1/tax.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/8-Testing/1/tax_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/8-Testing/2/repository_mock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/8-Testing/2/tax.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/8-Testing/2/tax_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/.idea/inicial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/.idea/inicial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/1/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/1/a.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/10/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/10/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/11/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/11/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/12/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/12/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/13/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/13/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/14/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/14/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/15/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/15/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/16/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/16/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/17/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/17/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/18/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/18/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/18/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/18/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/18/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/18/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/18/matematica/matematica.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/18/matematica/matematica.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/19/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/19/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/20/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/20/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/20/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/20/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/20/meu-modulo" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/20/meu-modulo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/4/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/5/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/5/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/6/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/6/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/7/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/7/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/8/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/8/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/3 - fundacao/9/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/3 - fundacao/9/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/1-manipulacao-de-arquivos/aula1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/1-manipulacao-de-arquivos/aula1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/2-Http-requests/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/2-Http-requests/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/4-Json/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/4-Json/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/5-FileServer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/5-FileServer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/5-FileServer/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/5-FileServer/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/5-ServerMux/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/5-ServerMux/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/5-busca-cep/cep" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/5-busca-cep/cep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/5-busca-cep/cidade.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/5-busca-cep/cidade.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/5-busca-cep/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/5-busca-cep/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/3/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/3/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/4/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/4/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/4/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/5/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/5/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/5/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/5/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/5/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/5/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/5/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/5/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/6/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/6/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/6/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/6/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/6/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/6/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/6-Templates/6/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/6-Templates/6/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/7-HTTPCLIENT/1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/7-HTTPCLIENT/1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/7-HTTPCLIENT/2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/7-HTTPCLIENT/2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/7-HTTPCLIENT/3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/7-HTTPCLIENT/3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/7-HTTPCLIENT/4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/7-HTTPCLIENT/4/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/4 - pacotes importantes/BUSCA-CEP/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/4 - pacotes importantes/BUSCA-CEP/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/5 - contexto/1-hotel/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/5 - contexto/1-hotel/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/5 - contexto/2-client-server/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/5 - contexto/2-client-server/client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/5 - contexto/2-client-server/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/5 - contexto/2-client-server/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/5 - contexto/3-key-valeu/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/5 - contexto/3-key-valeu/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/1/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/1/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/1/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/1/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/10/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/10/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/10/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/10/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/10/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/10/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/2/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/2/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/2/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/2/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/3/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/3/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/3/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/3/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/5/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/5/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/5/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/5/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/5/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/5/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/6/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/6/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/6/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/6/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/6/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/6/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/7/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/7/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/7/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/7/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/7/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/7/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/8/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/8/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/8/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/8/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/8/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/8/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/6-banco-de-dados/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/6-banco-de-dados/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/aulas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/aulas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/clean-architecture/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/clean-architecture/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/clean-architecture/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/clean-architecture/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/clean-architecture/internal/domain/entity.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/clean-architecture/internal/domain/entity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/clean-architecture/internal/usecase/finish_todo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicial/clean-architecture/internal/usecase/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/CURSO-GO/clean-architecture/internal/usecase/interface.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dlcdev1"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dlcdev1&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dlcdev1/pos1.git",
-    "accountId": "eb82fbf6-d7e3-4ea8-a9f9-4cae8e08ee87"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dlcdev1/pos1.git&quot;,
+    &quot;accountId&quot;: &quot;eb82fbf6-d7e3-4ea8-a9f9-4cae8e08ee87&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2tbZ6hiGfZ7V6qeO5PKw3tWjbxE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,6 +152,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build github.com/dlcdev1/pos1/7-Pakaging/1/1/CMD.executor": "Run",
+    "Go Test.TestCalculateTax in mytest.executor": "Run",
+    "Go Test.TestCalculateTax in taxgo.executor": "Run",
+    "Go Test.TestCalculateTaxAndSave in mytest.executor": "Run",
+    "Go Test.TestCalculateTaxBatch in taxgo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -44,14 +166,86 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/dlcorreia/Documents/tranning/pos1",
+    "last_opened_file_path": "/Users/dlcorreia/Documents/tranning/pos1/CURSO-GO/7-Packaging/4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CURSO-GO/7-Packaging/4" />
+      <recent name="$PROJECT_DIR$/CURSO-GO/7-Packaging/3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CURSO-GO/7-Packaging/1" />
+      <recent name="$PROJECT_DIR$/CURSO-GO/7-Packaging/CMD" />
       <recent name="$PROJECT_DIR$/inicial" />
     </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestCalculateTaxAndSave in mytest">
+    <configuration name="go build github.com/dlcdev1/pos1/7-Pakaging/1/1/CMD" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="pos1" />
+      <working_directory value="$PROJECT_DIR$/CURSO-GO/7-Packaging" />
+      <kind value="PACKAGE" />
+      <package value="github.com/dlcdev1/pos1/7-Pakaging/1/1/CMD" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/CURSO-GO/7-Packaging/1/CMD/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCalculateTax in mytest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="pos1" />
+      <working_directory value="$PROJECT_DIR$/CURSO-GO/8-Testing/2" />
+      <kind value="PACKAGE" />
+      <package value="mytest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCalculateTax\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCalculateTax in taxgo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="pos1" />
+      <working_directory value="$PROJECT_DIR$/CURSO-GO/8-Testing/1" />
+      <kind value="PACKAGE" />
+      <package value="taxgo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCalculateTax\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCalculateTaxAndSave in mytest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="pos1" />
+      <working_directory value="$PROJECT_DIR$/CURSO-GO/8-Testing/2" />
+      <kind value="PACKAGE" />
+      <package value="mytest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCalculateTaxAndSave\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCalculateTaxBatch in taxgo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="pos1" />
+      <working_directory value="$PROJECT_DIR$/CURSO-GO/8-Testing/1" />
+      <kind value="PACKAGE" />
+      <package value="taxgo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCalculateTaxBatch\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestCalculateTaxAndSave in mytest" />
+        <item itemvalue="Go Test.TestCalculateTax in mytest" />
+        <item itemvalue="Go Test.TestCalculateTaxBatch in taxgo" />
+        <item itemvalue="Go Test.TestCalculateTax in taxgo" />
+        <item itemvalue="Go Build.go build github.com/dlcdev1/pos1/7-Pakaging/1/1/CMD" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -67,9 +261,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mudança de pastas" />
-    <option name="LAST_COMMIT_MESSAGE" value="mudança de pastas" />
+    <MESSAGE value="novas aulas" />
+    <option name="LAST_COMMIT_MESSAGE" value="novas aulas" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/CURSO-GO/8-Testing/2/tax_test.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

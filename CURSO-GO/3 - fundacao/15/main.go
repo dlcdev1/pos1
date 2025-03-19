@@ -15,7 +15,7 @@ func (c *Conta) simular(valor int) int {
 }
 
 func main() {
-	conta := Conta {
+	conta := Conta{
 		saldo: 100,
 	}
 	conta.simular(200)
