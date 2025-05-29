@@ -1,0 +1,24 @@
+# Binários compilados
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Diretórios de dependências
+/vendor/
+
+# Arquivos temporários e de sistema
+*.log
+*.out
+*.tmp
+*.swp
+.DS_Store
+
+# Arquivos de configuração locais
+.env
+.idea/
