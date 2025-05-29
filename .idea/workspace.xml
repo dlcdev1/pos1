@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="novas aulas">
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/1-Go-Routines/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/2-WaitGroups/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/3-concorrencia-no-mundo-real/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/1-Hello/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/2-Forever/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/3-Range/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/4-Range-with-wait-group/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/5 - Directions/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/6 - Load-Balance/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/7 - select/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/8 - Buffers/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/11-EVENTOS/pkg/cmd/consumer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/11-EVENTOS/pkg/cmd/producer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/11-EVENTOS/pkg/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/11-EVENTOS/pkg/events/event_dispacher.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/11-EVENTOS/pkg/events/event_dispatcher_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/11-EVENTOS/pkg/events/interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/11-EVENTOS/pkg/rabbitmq/rabbitmq.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/cmd/READM.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/cmd/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/cmd/server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/configs/REAMD.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/configs/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/READM.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/dto/dto.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/entity/product.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/entity/product_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/entity/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/entity/user_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/infra/database/interfaces.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/infra/database/product_db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/infra/database/product_db_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/infra/database/user_db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/infra/database/user_db_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/infra/webserver/handlers/product_handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/internal/infra/webserver/handlers/user_handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/pkg/READM.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/pkg/entity/id.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/test/product.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/9-apis/api/test/user.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="novas aulas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,70 +47,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go Build.go build github.com/dlcdev1/pos1/7-Pakaging/1/1/CMD.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build github.com/dlcdev1/pos1/9-apis/CMD.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build github.com/dlcdev1/pos1/eventos/utils/pkg/cmd/consumer.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build github.com/dlcdev1/pos1/eventos/utils/pkg/cmd/producer.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build github.com/dlcdev1/pos1/eventos/utils/teste.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build main.go (1).executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build main.go (2).executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build main.go.executor&quot;: &quot;Debug&quot;,
-    &quot;Go Test.TestCalculateTax in mytest.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestCalculateTax in taxgo.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestCalculateTaxAndSave in mytest.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestCalculateTaxBatch in taxgo.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestCreateNewProduct in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestCreateUser in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestEventDispatcher_Clear in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestEventDispatcher_Dispatch in github.com/dlcdev1/pos1/eventos/utils/events.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestEventDispatcher_Dispatch in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestEventDispatcher_Has in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestEventDispatcher_Register in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestEventDispatcher_Register_WithSameHandler in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestEventDispatcher_Remove in github.com/dlcdev1/pos1/eventos/utils/events.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestFindAllProducts in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestFindByEmail in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestFindById in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestNewProduct in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestNewUser in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestProductValidate in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestProductWhenNameisRequired in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestProductWhenPriceIsInvalid in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestProduct_Delete in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestProduct_Update in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestProductwhenPriceIsRequired in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestUser_ValidatePassword in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.product_db_test.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.product_test.go.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.product | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.product | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.product | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.product | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.product | #5.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.user | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.user | #2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.user | #2.executor&quot;: &quot;Run&quot;,
-    &quot;OpenAPI/Swagger Code Generator.swagger.yaml.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dlcorreia/Documents/tranning/pos1/CURSO-GO/10-MULTITHREADING/4-chanes&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build github.com/dlcdev1/pos1/7-Pakaging/1/1/CMD.executor": "Run",
+    "Go Build.go build github.com/dlcdev1/pos1/9-apis/CMD.executor": "Run",
+    "Go Build.go build github.com/dlcdev1/pos1/eventos/utils/pkg/cmd/consumer.executor": "Run",
+    "Go Build.go build github.com/dlcdev1/pos1/eventos/utils/pkg/cmd/producer.executor": "Run",
+    "Go Build.go build github.com/dlcdev1/pos1/eventos/utils/teste.executor": "Run",
+    "Go Build.go build main.go (1).executor": "Run",
+    "Go Build.go build main.go (2).executor": "Run",
+    "Go Build.go build main.go.executor": "Debug",
+    "Go Test.TestCalculateTax in mytest.executor": "Run",
+    "Go Test.TestCalculateTax in taxgo.executor": "Run",
+    "Go Test.TestCalculateTaxAndSave in mytest.executor": "Run",
+    "Go Test.TestCalculateTaxBatch in taxgo.executor": "Run",
+    "Go Test.TestCreateNewProduct in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
+    "Go Test.TestCreateUser in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
+    "Go Test.TestEventDispatcher_Clear in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
+    "Go Test.TestEventDispatcher_Dispatch in github.com/dlcdev1/pos1/eventos/utils/events.executor": "Run",
+    "Go Test.TestEventDispatcher_Dispatch in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
+    "Go Test.TestEventDispatcher_Has in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
+    "Go Test.TestEventDispatcher_Register in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
+    "Go Test.TestEventDispatcher_Register_WithSameHandler in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
+    "Go Test.TestEventDispatcher_Remove in github.com/dlcdev1/pos1/eventos/utils/events.executor": "Run",
+    "Go Test.TestFindAllProducts in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
+    "Go Test.TestFindByEmail in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
+    "Go Test.TestFindById in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
+    "Go Test.TestNewProduct in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
+    "Go Test.TestNewUser in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
+    "Go Test.TestProductValidate in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
+    "Go Test.TestProductWhenNameisRequired in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
+    "Go Test.TestProductWhenPriceIsInvalid in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
+    "Go Test.TestProduct_Delete in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
+    "Go Test.TestProduct_Update in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
+    "Go Test.TestProductwhenPriceIsRequired in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
+    "Go Test.TestUser_ValidatePassword in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
+    "Go Test.product_db_test.go.executor": "Run",
+    "Go Test.product_test.go.executor": "Run",
+    "HTTP Request.product | #1.executor": "Run",
+    "HTTP Request.product | #2.executor": "Run",
+    "HTTP Request.product | #3.executor": "Run",
+    "HTTP Request.product | #4.executor": "Run",
+    "HTTP Request.product | #5.executor": "Run",
+    "HTTP Request.user | #1.executor": "Run",
+    "HTTP Request.user | #2 (1).executor": "Run",
+    "HTTP Request.user | #2.executor": "Run",
+    "OpenAPI/Swagger Code Generator.swagger.yaml.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/dlcorreia/Documents/tranning/pos1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes" />
