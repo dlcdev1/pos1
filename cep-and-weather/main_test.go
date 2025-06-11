@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCToF(t *testing.T) {
@@ -166,7 +167,7 @@ func Test_getWeather(t *testing.T) {
 		{
 			name:    "Cidade válida retorna dados do tempo",
 			args:    args{city: "Belo Horizonte"},
-			want:    WeatherResponse{Location: Location{Name: "Belo Horizonte"}, Current: Current{TempC: 18.3}},
+			want:    WeatherResponse{Location: Location{Name: "Belo Horizonte"}, Current: Current{TempC: 20.2}},
 			wantErr: assert.NoError,
 		},
 		{

@@ -3,8 +3,11 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gorilla/mux"
+	"log"
 	"net/http"
+	"net/url"
+
+	"github.com/gorilla/mux"
 )
 
 const (
@@ -34,9 +37,13 @@ type TemperatureResponse struct {
 
 func main() {
 	r := mux.NewRouter()
-	r.HandleFunc("/weather/{cep}", WeatherHandler).Methods("GET")
+	r.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("Utilize: a url https://cep-and-weather-265465228180.us-central1.run.app/{cep}"))
+	}).Methods("GET")
+
+	r.HandleFunc("/{cep}", WeatherHandler).Methods("GET")
 	http.Handle("/", r)
-	fmt.Println("Servidor rodando na porta 8080...")
+	log.Printf("Iniciando serviço rodando na porta 8080")
 	http.ListenAndServe(":8080", nil)
 }
 
@@ -81,32 +88,40 @@ func getLocationByCEP(cep string) (Location, error) {
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return location, fmt.Errorf("cep not found")
+		return location, fmt.Errorf("CEP not found (status code: %d)", resp.StatusCode)
 	}
 
-	var result interface{}
-	json.NewDecoder(resp.Body).Decode(&result)
-	if loc, ok := result.(map[string]interface{}); ok {
-		if loc["localidade"] != nil {
-			location.Name = loc["localidade"].(string)
-		}
+	var result map[string]interface{}
+	err = json.NewDecoder(resp.Body).Decode(&result)
+	if err != nil {
+		return location, err
+	}
+
+	if loc, ok := result["localidade"].(string); ok {
+		location.Name = loc
+	} else {
+		return location, fmt.Errorf("localidade not found or invalid type")
 	}
 	return location, nil
 }
 
 func getWeather(city string) (WeatherResponse, error) {
 	var weather WeatherResponse
-	resp, err := http.Get(fmt.Sprintf(weatherAPIURL, "d12a877c0d564ef784b14428250606", city))
+
+	resp, err := http.Get(fmt.Sprintf(weatherAPIURL, weatherAPIKey, url.QueryEscape(city)))
 	if err != nil {
 		return weather, err
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return weather, fmt.Errorf("weather not found")
+		return weather, fmt.Errorf("weather not found (status code: %d)", resp.StatusCode)
 	}
 
-	json.NewDecoder(resp.Body).Decode(&weather)
+	err = json.NewDecoder(resp.Body).Decode(&weather)
+	if err != nil {
+		return weather, err
+	}
 	return weather, nil
 }
 

@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="novas aulas">
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/12-GOPRIVATE/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL/internal/database/category.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL/internal/database/course.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cep-and-weather/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cep-and-weather/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cep-and-weather/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cep-and-weather/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cep-and-weather/main_test.go" afterDir="false" />
+    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add cep and weather">
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL/graph/model/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL/graph/model/course.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL/internal/database/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/cmd/grpcServer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal/database/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal/database/course.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal/database/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal/service/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/proto/course_category.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cep-and-weather/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/cep-and-weather/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cep-and-weather/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cep-and-weather/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cep-and-weather/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cep-and-weather/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cep-and-weather/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cep-and-weather/main_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +131,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dlcorreia/Documents/tranning/pos1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dlcorreia/Documents/tranning/pos1/CURSO-GO/14-GRPC/cmd/grpcServer&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -142,18 +147,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CURSO-GO/14-GRPC/cmd/grpcServer" />
+      <recent name="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal" />
       <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes" />
       <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/3-Range" />
       <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/2-Forever" />
-      <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/2-WaitGroups" />
-      <recent name="$PROJECT_DIR$/CURSO-GO/7-Packaging/4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL" />
       <recent name="$PROJECT_DIR$/cep-and-weather" />
       <recent name="$PROJECT_DIR$/cep-and-weather/cmd" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lab1-deploy-gcp-clound-run/cep-and-weather" />
-      <recent name="$PROJECT_DIR$/lab1-deploy-gcp-clound-run" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -247,7 +252,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mudança de pastas" />
     <MESSAGE value="novas aulas" />
-    <option name="LAST_COMMIT_MESSAGE" value="novas aulas" />
+    <MESSAGE value="add cep and weather" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cep and weather" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -317,12 +323,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/cep-and-weather/main.go</url>
-          <line>57</line>
+          <line>64</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/cep-and-weather/main_test.go</url>
-          <line>131</line>
+          <line>132</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
