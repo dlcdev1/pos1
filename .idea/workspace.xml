@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add cep and weather">
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL/graph/model/category.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL/graph/model/course.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL/internal/database/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/cmd/grpcServer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal/database/category.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal/database/course.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal/database/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal/service/category.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CURSO-GO/14-GRPC/proto/course_category.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cep-and-weather/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/cep-and-weather/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cep-and-weather/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cep-and-weather/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cep-and-weather/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cep-and-weather/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cep-and-weather/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cep-and-weather/main_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add cep and weather" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
