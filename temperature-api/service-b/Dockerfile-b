@@ -1,0 +1,20 @@
+# Usando a imagem base do Go
+FROM golang:1.23 AS builder
+
+# Definindo o diretório de trabalho
+WORKDIR /app
+
+# Copiando o código fonte para o contêiner
+COPY service-b/go.mod service-b/go.sum ./
+RUN go mod download
+
+COPY service-b/ .
+
+# Compilando a aplicação
+RUN go build -o service-b .
+
+# O contêiner final
+FROM gcr.io/distroless/base
+WORKDIR /app
+COPY --from=builder /app/service-b /app/
+CMD ["/app/service-b"]
