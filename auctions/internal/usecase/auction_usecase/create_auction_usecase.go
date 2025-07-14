@@ -1,11 +1,11 @@
 package auction_usecase
 
 import (
+	"acution_dlcdev/internal/entity/auction_entity"
+	"acution_dlcdev/internal/entity/bid_entity"
+	"acution_dlcdev/internal/internal_error"
+	"acution_dlcdev/internal/usecase/bid_usecase"
 	"context"
-	"fullcycle-auction_go/internal/entity/auction_entity"
-	"fullcycle-auction_go/internal/entity/bid_entity"
-	"fullcycle-auction_go/internal/internal_error"
-	"fullcycle-auction_go/internal/usecase/bid_usecase"
 	"time"
 )
 

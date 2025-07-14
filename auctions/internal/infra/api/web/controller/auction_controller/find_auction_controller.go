@@ -1,9 +1,9 @@
 package auction_controller
 
 import (
+	"acution_dlcdev/configuration/rest_err"
+	"acution_dlcdev/internal/usecase/auction_usecase"
 	"context"
-	"fullcycle-auction_go/configuration/rest_err"
-	"fullcycle-auction_go/internal/usecase/auction_usecase"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 	"net/http"

@@ -1,11 +1,11 @@
 package bid
 
 import (
+	"acution_dlcdev/configuration/logger"
+	"acution_dlcdev/internal/entity/bid_entity"
+	"acution_dlcdev/internal/internal_error"
 	"context"
 	"fmt"
-	"fullcycle-auction_go/configuration/logger"
-	"fullcycle-auction_go/internal/entity/bid_entity"
-	"fullcycle-auction_go/internal/internal_error"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"time"

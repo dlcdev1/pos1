@@ -1,8 +1,8 @@
 package auction_entity
 
 import (
+	"acution_dlcdev/internal/internal_error"
 	"context"
-	"fullcycle-auction_go/internal/internal_error"
 	"github.com/google/uuid"
 	"time"
 )

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"fullcycle-auction_go/internal/entity/auction_entity"
+	"acution_dlcdev/internal/entity/auction_entity"
 	"github.com/stretchr/testify/require"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

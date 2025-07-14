@@ -1,10 +1,10 @@
 package user
 
 import (
+	"acution_dlcdev/configuration/logger"
+	"acution_dlcdev/internal/entity/user_entity"
+	"acution_dlcdev/internal/internal_error"
 	"context"
-	"fullcycle-auction_go/configuration/logger"
-	"fullcycle-auction_go/internal/entity/user_entity"
-	"fullcycle-auction_go/internal/internal_error"
 )
 
 func (ur *UserRepository) CreateUser(ctx context.Context, userEntity user_entity.User) (user_entity.User, *internal_error.InternalError) {

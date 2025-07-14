@@ -1,11 +1,11 @@
 package auction
 
 import (
+	"acution_dlcdev/configuration/logger"
+	"acution_dlcdev/internal/entity/auction_entity"
+	"acution_dlcdev/internal/internal_error"
 	"context"
 	"fmt"
-	"fullcycle-auction_go/configuration/logger"
-	"fullcycle-auction_go/internal/entity/auction_entity"
-	"fullcycle-auction_go/internal/internal_error"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"time"

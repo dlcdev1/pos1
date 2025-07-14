@@ -1,10 +1,10 @@
 package bid_controller
 
 import (
+	"acution_dlcdev/configuration/rest_err"
+	"acution_dlcdev/internal/infra/api/web/validation"
+	"acution_dlcdev/internal/usecase/bid_usecase"
 	"context"
-	"fullcycle-auction_go/configuration/rest_err"
-	"fullcycle-auction_go/internal/infra/api/web/validation"
-	"fullcycle-auction_go/internal/usecase/bid_usecase"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

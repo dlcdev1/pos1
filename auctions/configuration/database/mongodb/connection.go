@@ -1,8 +1,8 @@
 package mongodb
 
 import (
+	"acution_dlcdev/configuration/logger"
 	"context"
-	"fullcycle-auction_go/configuration/logger"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"os"

@@ -1,8 +1,8 @@
 package user_entity
 
 import (
+	"acution_dlcdev/internal/internal_error"
 	"context"
-	"fullcycle-auction_go/internal/internal_error"
 )
 
 type User struct {

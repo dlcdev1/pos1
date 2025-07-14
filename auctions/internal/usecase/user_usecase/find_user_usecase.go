@@ -1,10 +1,10 @@
 package user_usecase
 
 import (
+	"acution_dlcdev/internal/entity/user_entity"
+	"acution_dlcdev/internal/infra/database/user"
+	"acution_dlcdev/internal/internal_error"
 	"context"
-	"fullcycle-auction_go/internal/entity/user_entity"
-	"fullcycle-auction_go/internal/infra/database/user"
-	"fullcycle-auction_go/internal/internal_error"
 )
 
 func NewUserUseCase(userRepository *user.UserRepository) UserUseCaseInterface {

@@ -1,8 +1,8 @@
 package bid_usecase
 
 import (
+	"acution_dlcdev/internal/internal_error"
 	"context"
-	"fullcycle-auction_go/internal/internal_error"
 )
 
 func (bu *BidUseCase) FindBidByAuctionId(
