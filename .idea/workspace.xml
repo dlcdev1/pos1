@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add new projeect" />
+    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add new projeect">
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/cmd/auction/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/cmd/auction/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/configuration/database/mongodb/connection.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/configuration/logger/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/configuration/rest_err/rest_err.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/entity/auction_entity/auction_entity.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/entity/bid_entity/bid_entity.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/entity/user_entity/user_entity.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/api/web/controller/auction_controller/create_auction_controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/api/web/controller/auction_controller/find_auction_controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/api/web/controller/bid_controller/create_bid_controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/api/web/controller/bid_controller/find_bid_controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/api/web/controller/user_controller/find_user_controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/api/web/validation/validation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/database/auction/create_auction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/database/auction/create_auction_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/database/auction/find_auction.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/database/bid/create_bid.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/database/bid/find_bid.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/database/user/creat_user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/infra/database/user/find_user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/internal_error/internal_error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/usecase/auction_usecase/create_auction_usecase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/usecase/auction_usecase/find_auction_usecase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/usecase/bid_usecase/create_bid_usecase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/usecase/bid_usecase/find_bid_usecase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs-auction-goexpert/internal/usecase/user_usecase/find_user_usecase.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
