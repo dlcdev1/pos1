@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add new projeect">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/cmd/auction/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/cmd/auction/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/configuration/database/mongodb/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/configuration/database/mongodb/connection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/configuration/rest_err/rest_err.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/configuration/rest_err/rest_err.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/entity/auction_entity/auction_entity.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/entity/auction_entity/auction_entity.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/entity/bid_entity/bid_entity.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/entity/bid_entity/bid_entity.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/entity/user_entity/user_entity.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/entity/user_entity/user_entity.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/auction_controller/create_auction_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/auction_controller/create_auction_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/auction_controller/find_auction_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/auction_controller/find_auction_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/bid_controller/create_bid_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/bid_controller/create_bid_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/bid_controller/find_bid_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/bid_controller/find_bid_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/user_controller/find_user_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/api/web/controller/user_controller/find_user_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/api/web/validation/validation.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/api/web/validation/validation.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/database/auction/create_auction.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/database/auction/create_auction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/database/auction/find_auction.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/database/auction/find_auction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/database/bid/create_bid.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/database/bid/create_bid.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/database/bid/find_bid.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/database/bid/find_bid.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/database/user/creat_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/database/user/creat_user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/infra/database/user/find_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/infra/database/user/find_user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/usecase/auction_usecase/create_auction_usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/usecase/auction_usecase/create_auction_usecase.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/usecase/auction_usecase/find_auction_usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/usecase/auction_usecase/find_auction_usecase.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/usecase/bid_usecase/create_bid_usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/usecase/bid_usecase/create_bid_usecase.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/usecase/bid_usecase/find_bid_usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/usecase/bid_usecase/find_bid_usecase.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auctions/internal/usecase/user_usecase/find_user_usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/auctions/internal/usecase/user_usecase/find_user_usecase.go" afterDir="false" />
-    </list>
+    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add new projeect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +127,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/dlcorreia/Workspace/OTHER/pos1",
+    "last_opened_file_path": "/Users/dlcorreia/Workspace/OTHER/pos1/rate_limite",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -170,11 +143,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rate_limite" />
       <recent name="$PROJECT_DIR$/temperature-api" />
       <recent name="$PROJECT_DIR$/CURSO-GO/14-GRPC/cmd/grpcServer" />
       <recent name="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal" />
       <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes" />
-      <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/3-Range" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL" />
