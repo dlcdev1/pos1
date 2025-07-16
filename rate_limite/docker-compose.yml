@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - REDIS_ADDR=redis:6379
+      - REDIS_PASSWORD=
+      - REDIS_DB=0
+      - LIMIT_IP_RPS=5
+      - LIMIT_TOKEN_RPS=10
+      - BLOCK_DURATION_MIN=5m
+      - TOKEN_LIMITS=abc123:10,def456:5
+    depends_on:
+      - redis

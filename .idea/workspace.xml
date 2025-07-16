@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add new projeect" />
+    <list default="true" id="8d59dc6b-dfd7-4b9a-8838-e59f6229ddfb" name="Changes" comment="add new projeect">
+      <change afterPath="$PROJECT_DIR$/rate_limite/.env.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/READM.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/limiter/limiter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/limiter/limiter_interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/limiter/limiter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/limiter/redis_storage.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/limiter/storage.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/middleware/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rate_limite/middleware/middleware_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,103 +65,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Docker.lab1-deploy-gcp-clound-run/docker-compose.yaml.cep-and-weather: Compose Deployment.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/13-GraphQL/cmd/server.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run/cep-and-weather/cmd.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/pos/temperature-api/service-a.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/pos1/7-Pakaging/1/1/CMD.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/pos1/9-apis/CMD.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/pos1/eventos/utils/pkg/cmd/consumer.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/pos1/eventos/utils/pkg/cmd/producer.executor": "Run",
-    "Go Build.go build github.com/dlcdev1/pos1/eventos/utils/teste.executor": "Run",
-    "Go Build.go build main.go (1).executor": "Run",
-    "Go Build.go build main.go (2).executor": "Run",
-    "Go Build.go build main.go.executor": "Debug",
-    "Go Build.go build teste.executor": "Run",
-    "Go Test.TestCToF in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor": "Run",
-    "Go Test.TestCToF/0°C_para_32°F in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor": "Run",
-    "Go Test.TestCToK in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor": "Run",
-    "Go Test.TestCalculateTax in mytest.executor": "Run",
-    "Go Test.TestCalculateTax in taxgo.executor": "Run",
-    "Go Test.TestCalculateTaxAndSave in mytest.executor": "Run",
-    "Go Test.TestCalculateTaxBatch in taxgo.executor": "Run",
-    "Go Test.TestCreateNewProduct in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
-    "Go Test.TestCreateUser in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
-    "Go Test.TestEventDispatcher_Clear in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
-    "Go Test.TestEventDispatcher_Dispatch in github.com/dlcdev1/pos1/eventos/utils/events.executor": "Run",
-    "Go Test.TestEventDispatcher_Dispatch in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
-    "Go Test.TestEventDispatcher_Has in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
-    "Go Test.TestEventDispatcher_Register in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
-    "Go Test.TestEventDispatcher_Register_WithSameHandler in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor": "Run",
-    "Go Test.TestEventDispatcher_Remove in github.com/dlcdev1/pos1/eventos/utils/events.executor": "Run",
-    "Go Test.TestFindAllProducts in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
-    "Go Test.TestFindByEmail in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
-    "Go Test.TestFindById in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
-    "Go Test.TestHandleCep_Success in github.com/dlcdev1/pos/temperature-api/service-a.executor": "Run",
-    "Go Test.TestHandleTemperature_ViaCepNotFound in github.com/dlcdev1/pos/temperature-api/service-b.executor": "Run",
-    "Go Test.TestNewProduct in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
-    "Go Test.TestNewUser in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
-    "Go Test.TestProductValidate in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
-    "Go Test.TestProductWhenNameisRequired in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
-    "Go Test.TestProductWhenPriceIsInvalid in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
-    "Go Test.TestProduct_Delete in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
-    "Go Test.TestProduct_Update in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor": "Run",
-    "Go Test.TestProductwhenPriceIsRequired in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
-    "Go Test.TestUser_ValidatePassword in github.com/dlcdev1/pos1/9-apis/internal/entity.executor": "Run",
-    "Go Test.TestWeatherHandler in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor": "Run",
-    "Go Test.Test_getLocationByCEP/CEP_inválido_retorna_erro in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor": "Run",
-    "Go Test.Test_getWeather in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor": "Run",
-    "Go Test.Test_getWeather/Cidade_válida_retorna_dados_do_tempo in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor": "Run",
-    "Go Test.main_test.go (1).executor": "Run",
-    "Go Test.main_test.go.executor": "Run",
-    "Go Test.product_db_test.go.executor": "Run",
-    "Go Test.product_test.go.executor": "Run",
-    "HTTP Request.product | #1.executor": "Run",
-    "HTTP Request.product | #2.executor": "Run",
-    "HTTP Request.product | #3.executor": "Run",
-    "HTTP Request.product | #4.executor": "Run",
-    "HTTP Request.product | #5.executor": "Run",
-    "HTTP Request.user | #1.executor": "Run",
-    "HTTP Request.user | #2 (1).executor": "Run",
-    "HTTP Request.user | #2.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "OpenAPI/Swagger Code Generator.swagger.yaml.executor": "Run",
-    "RunOnceActivity.GoLinterPluginOnboarding": "true",
-    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/dlcorreia/Workspace/OTHER/pos1/rate_limite",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Docker.lab1-deploy-gcp-clound-run/docker-compose.yaml.cep-and-weather: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/13-GraphQL/cmd/server.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run/cep-and-weather/cmd.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/pos/temperature-api/service-a.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/pos1/7-Pakaging/1/1/CMD.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/pos1/9-apis/CMD.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/pos1/eventos/utils/pkg/cmd/consumer.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/pos1/eventos/utils/pkg/cmd/producer.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.com/dlcdev1/pos1/eventos/utils/teste.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build main.go (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build main.go (2).executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build main.go.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Build.go build teste.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCToF in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCToF/0°C_para_32°F in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCToK in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculateTax in mytest.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculateTax in taxgo.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculateTaxAndSave in mytest.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculateTaxBatch in taxgo.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCreateNewProduct in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCreateUser in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestEventDispatcher_Clear in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestEventDispatcher_Dispatch in github.com/dlcdev1/pos1/eventos/utils/events.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestEventDispatcher_Dispatch in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestEventDispatcher_Has in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestEventDispatcher_Register in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestEventDispatcher_Register_WithSameHandler in github.com/dlcdev1/pos1/eventos/utils/pkg/events.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestEventDispatcher_Remove in github.com/dlcdev1/pos1/eventos/utils/events.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestFindAllProducts in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestFindByEmail in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestFindById in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestHandleCep_Success in github.com/dlcdev1/pos/temperature-api/service-a.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestHandleTemperature_ViaCepNotFound in github.com/dlcdev1/pos/temperature-api/service-b.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestNewProduct in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestNewUser in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductValidate in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductWhenNameisRequired in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductWhenPriceIsInvalid in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_Delete in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProduct_Update in github.com/dlcdev1/pos1/9-apis/internal/infra/database.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestProductwhenPriceIsRequired in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestUser_ValidatePassword in github.com/dlcdev1/pos1/9-apis/internal/entity.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestWeatherHandler in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_getLocationByCEP/CEP_inválido_retorna_erro in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_getWeather in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.Test_getWeather/Cidade_válida_retorna_dados_do_tempo in github.com/dlcdev1/pos/lab1-deploy-gcp-cloud-run.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.main_test.go (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.main_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.product_db_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.product_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.product | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.product | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.product | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.product | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.product | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | #2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.user | #2.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;OpenAPI/Swagger Code Generator.swagger.yaml.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.GoLinterPluginOnboarding&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dlcorreia/Workspace/OTHER/pos1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rate_limite" />
       <recent name="$PROJECT_DIR$/temperature-api" />
       <recent name="$PROJECT_DIR$/CURSO-GO/14-GRPC/cmd/grpcServer" />
       <recent name="$PROJECT_DIR$/CURSO-GO/14-GRPC/internal" />
       <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes" />
+      <recent name="$PROJECT_DIR$/CURSO-GO/10-MULTITHREADING/4-chanes/3-Range" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CURSO-GO/13-GRAPHQL" />
